@@ -1,0 +1,196 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        background: seashell;
+        color: steelblue;
+        font-family: 'sans-serif';
+    }
+    
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: bold;
+        background-color: seashell;
+        color: steelblue;
+        padding: 20px 10px 20px 10px;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 70px;
+    }
+    
+    #original {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #logo,
+    #cymbals {
+        padding: 13px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: steelblue;
+    }
+    
+    .nav-link {
+        padding: 20px 20px 15px 13px;
+    }
+    
+    #madlad {
+        padding-right: 30px;
+    }
+    
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 500px;
+        border:2px solid blue;
+        padding:5px;
+    }
+
+    
+    /*   styling for the 1st section to center it*/
+    
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 450px;
+        padding-top: 20px;
+        margin-top: 10px;
+        border-top: 2px solid steelblue ;
+        background-color:seashell;
+        margin-bottom: 100px;
+        padding-bottom: 70px;
+        border-bottom: 2px solid steelblue;
+
+    
+    }
+
+    #email {
+        padding:.4em ;
+        font-size: 20px;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 4em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    #form1 {
+        font-size: 2em;
+    }
+
+    #button1 {
+        font-weight: bold;
+        max-width: 200px;
+font-size: 20px;
+    background-color: #f1c40f;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    border: 3px black solid;
+    cursor: pointer;
+    }
+
+    #features  { 
+        margin-left: 10%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        font-size:30px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 33%;
+        justify-content: center;
+  }
+
+
+
+  .icon {
+      color: rgb(255, 21, 21);
+  }
+
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.product {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 30px;
+}
+.product > .btn {
+    font-size: 25px;
+}
+.product > .level {    
+     background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;}
+
+  footer  {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+  }
+    @media only screen and (max-width: 900px)
+    {
+        iframe {
+            width: 70%;
+        }
+
+    
+
+        .product {
+            font-size: 20px;
+        }
+
+        .btn {
+            font-size: 15px;
+            padding: 5px;
+        }
+
+        #features {
+            font-size: 15px;
+        }
+
+    
+    
+    }
+    #nav-bar a:hover {
+        color: black; 
+
+    }
